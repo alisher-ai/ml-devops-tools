@@ -25,7 +25,7 @@ This is necessary if you want to connect to your docker container from remote ma
 
 ## Downloading Google Drive files from CLI:
 Most of the time I had difficulties to download Google Drive files from CLI. The following script helps you to download the Google drive file if you provide with the drive_file_id (this script calls `./helpers/get_google_drive_file.py` script): 
-```bash 7_download_google_drive_file.sh drive_file_id destination_file_path````
+```bash 7_download_google_drive_file.sh drive_file_id destination_file_path```
 
 Let me know if you find anything wrong with above scripts
 
