@@ -8,6 +8,9 @@ wget https://developer.nvidia.com/compute/cuda/10.0/Prod/local_installers/cuda-r
 sudo apt-get --purge remove "*cublas*" "cuda*" "nvidia-cuda*"
 sudo apt-get --purge remove "*nvidia*"
 
+sudo apt-get install software-properties-common
+sudo apt-get update
+
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt-get update
 sudo apt install nvidia-430
