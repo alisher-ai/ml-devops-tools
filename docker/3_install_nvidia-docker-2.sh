@@ -14,7 +14,7 @@ sudo pkill -SIGHUP dockerd
 
 
 # Test nvidia-smi with the latest official CUDA image
-sudo docker run --runtime=nvidia --rm nvidia/cuda nvidia-smi
+sudo docker run --gpus all --rm nvidia/cuda nvidia-smi
 
 
 
