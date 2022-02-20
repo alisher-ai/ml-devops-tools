@@ -3,6 +3,7 @@ sudo apt update
 sudo apt purge cuda
 
 # Install CUDA Toolkit 10.0 and cuDNN 7.0 as follows:
+# DEB (local). ex: https://developer.nvidia.com/cuda-11.0-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=deblocal
 wget https://developer.nvidia.com/compute/cuda/10.0/Prod/local_installers/cuda-repo-ubuntu1604-10-0-local-10.0.130-410.48_1.0-1_amd64
 
 sudo apt-get --purge remove "*cublas*" "cuda*" "nvidia-cuda*"
