@@ -13,7 +13,7 @@ sudo apt-get update
 
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt-get update
-sudo apt install nvidia-430
+sudo apt install nvidia-430  # OR sudo apt install nvidia-driver-430
 
 sudo dpkg -i cuda-repo-ubuntu1604-10-0-local-10.0.130-410.48_1.0-1_amd64
 sudo apt-key add /var/cuda-repo-10-0-local-10.0.130-410.48/7fa2af80.pub
